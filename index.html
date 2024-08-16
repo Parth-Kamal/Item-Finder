@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information Form with QR Code</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Information Form</h1>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="guardianName">Guardian/Parent's Name:</label>
+            <input type="text" id="guardianName" name="guardianName" required>
+
+            <label for="parentPhone">Parent's Phone Number:</label>
+            <input type="tel" id="parentPhone" name="parentPhone" required>
+
+            <label for="contactOption">Preferred Contact Option:</label>
+            <select id="contactOption" name="contactOption" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="phone">Phone/WhatsApp Number</option>
+                <option value="email">Email ID</option>
+                <option value="socialMedia">Social Media Handle</option>
+            </select>
+
+            <div id="contactDetails"></div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
