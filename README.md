@@ -1,4 +1,5 @@
 # Item-Finder
+
 our idea is to build a website that is designed to be your personal lost and found assistant. It simplifies the process by generating personalized QR codes that are to be stuck on your items. Moreover, the QR codes are made to be aesthetically pleasing so as to make users feel more comfortable sticking them on to their belongings.
 
 These QR codes act as digital markers, linking directly to page containing all the information you wish to show your item finder-like name, number or social media handle.
