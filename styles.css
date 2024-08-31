@@ -1,8 +1,11 @@
 
 
 body {
+
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    background-image: url('assets/images/about/Designer1.png');
+    background-size: cover; 
+    /* background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%); */
     margin: 0;
     padding: 20px;
     display: flex;
@@ -16,10 +19,13 @@ body {
 .container {
     max-width: 500px;
     background-color: #fff;
+    background-size: cover; /* Adjust the size of the background */
+    background-position: center;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
+    background-image: url(assets/images/logo/bg.png);
 }
 
 h1 {
